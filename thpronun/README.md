@@ -14,9 +14,17 @@ thpronun license: GNU General Public License v3.0
 
 > docker build -t thpronun:v0.2 .
 
+or using docker image by PyThaiNLP
+
+> docker pull ghcr.io/pythainlp/thainlp-docker/thpronun:thpronun-v0.2.0
+
 ## Using
 
 > docker run --rm -it thpronun:v0.2  bash -c "thpronun mode word"
+
+or using docker image by PyThaiNLP
+
+> docker run --rm -it ghcr.io/pythainlp/thainlp-docker/thpronun:thpronun-v0.2.0 bash -c "thpronun mode word"
 
 **list mode**
 - `-t` - Thai pronunciation

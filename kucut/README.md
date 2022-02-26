@@ -12,13 +12,17 @@ KUCut License: GPL-2.0 License
 
 > docker build -t kucut:v1.4.3b2 .
 
+or using docker image by PyThaiNLP
+
+> docker pull ghcr.io/pythainlp/thainlp-docker/kucut:kucut-v1.4.3b2
+
 ## Using
 
 > docker run --rm -it --entrypoint bash kucut:v1.4.3b2
 
-or when docker is running.
+or using docker image by PyThaiNLP
 
-> docker exec -it kucut:v1.4.3b2 bash
+> docker run --rm -it --entrypoint bash ghcr.io/pythainlp/thainlp-docker/kucut:kucut-v1.4.3b2
 
 using
 
