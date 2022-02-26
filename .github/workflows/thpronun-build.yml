@@ -70,8 +70,8 @@ jobs:
       # https://github.com/docker/build-push-action
       - name: Build and push Docker image
         id: build-and-push
-        working-directory: ./thpronun
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        working-directory: ./thpronun
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
