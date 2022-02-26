@@ -2,10 +2,6 @@ name: thpronun-build
 
 on:
   push:
-    # Publish `master` as Docker `latest` image.
-    branches:
-      - main
-
     # Publish `v1.2.3` tags as releases.
     tags:
       - thpronun-v*
@@ -52,7 +48,7 @@ jobs:
 
       - name: Push image
         run: |
-          IMAGE_ID=docker.pkg.github.com/${{ github.repository }}/$IMAGE_NAME
+          IMAGE_ID=docker.pkg.github.com/$IMAGE_NAME
 
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
