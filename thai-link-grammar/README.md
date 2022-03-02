@@ -20,7 +20,7 @@ This dockerfile license: MIT license
 
 or using docker image by PyThaiNLP
 
-> docker pull ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:02032022
+> docker pull ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:thai_link_grammar-02032022
 
 ## Using
 
@@ -28,7 +28,7 @@ or using docker image by PyThaiNLP
 
 or using docker image by PyThaiNLP
 
-> docker run --rm -it --entrypoint bash ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:02032022
+> docker run --rm -it --entrypoint bash ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:thai_link_grammar-02032022
 
 
 using
