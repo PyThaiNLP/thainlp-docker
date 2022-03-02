@@ -16,19 +16,19 @@ This dockerfile license: MIT license
 
 ## How to build
 
-> docker build -t thai_link_grammar:02032021 .
+> docker build -t thai_link_grammar:02032022 .
 
 or using docker image by PyThaiNLP
 
-> docker pull ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:0203202
+> docker pull ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:02032022
 
 ## Using
 
-> docker run --rm -it --entrypoint bash thai_link_grammar:0203202
+> docker run --rm -it --entrypoint bash thai_link_grammar:02032022
 
 or using docker image by PyThaiNLP
 
-> docker run --rm -it --entrypoint bash ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:0203202
+> docker run --rm -it --entrypoint bash ghcr.io/pythainlp/thainlp-docker/thai_link_grammar:02032022
 
 
 using
