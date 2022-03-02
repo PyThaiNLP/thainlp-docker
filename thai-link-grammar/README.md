@@ -2,6 +2,12 @@
 
 This project is built based on [kaamanita's GitHub](https://github.com/kaamanita/link-grammar). It is `CMU Link Grammar natural language parser` fork. It is Add Thai dictionaries #1279 at [GitHub](https://github.com/opencog/link-grammar/pull/1279).
 
+This image built with Python 3.8. You can using python bindings.
+
+GitHub: https://github.com/kaamanita/link-grammar
+
+CMU Link Grammar natural language parse: https://github.com/opencog/link-grammar
+
 
 Thai Link Grammar License:
 ```
